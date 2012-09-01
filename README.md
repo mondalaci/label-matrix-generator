@@ -5,7 +5,7 @@ In office stores one can buy removable labels.  Such products are sold as a set 
 
 This PHP script is an SVG generator for such removable labels.  You can specify the following parameters and have the desired sheet generated for printing:
 
-* __unit__: The unit of measure that will be used for all the other parameters.  Any unit featured in the SVG specification is valid but typically __mm__ and __in__ (for inch) is expected to be used.
+* __unit__: The unit of measure that will be used for all the other parameters.  Typically __mm__ and __in__ (for inch) is expected to be used but any unit featured in the SVG specification is valid.
 * pageSize
 * labelSize
 * labelGapX

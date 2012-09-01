@@ -3,9 +3,7 @@ Label Matrix Generator
 
 In office stores one can buy removable labels.  Such products are sold as a set of pages featuring a matrix of labels that can be peeled off without leaving any trace of adhesive.
 
-This PHP script is an SVG generator for such removable labels.  You can specify various geometric properties that can be seen below and have the desired sheet generated for printing.
-
-Parameters:
+This PHP script is an SVG generator for such removable labels.  You can specify the following parameters and have the desired sheet generated for printing:
 
 * pageSize
 * labelSize

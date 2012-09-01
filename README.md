@@ -1,7 +1,7 @@
 Label Matrix Generator
 ======================
 
-In office stores one can buy removable labels.  Such products are sold as a set of pages featuring a matrix of labels that can be peeled off without leaving any trace of adhesive.  This PHP script generates a matrix of labels with pinpoint accuracy.
+In office stores one can buy removable labels.  Such products are sold as a set of pages featuring a matrix of labels that can be peeled off without leaving any trace of adhesive.  This PHP script generates a such a matrix of labels with pinpoint accuracy ready for printing.
 
 Parameters
 ----------

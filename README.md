@@ -1,9 +1,12 @@
 Label Matrix Generator
 ======================
 
-In office stores one can buy removable labels.  Such products are sold as a set of pages featuring a matrix of labels that can be peeled off without leaving any trace of adhesive.
+In office stores one can buy removable labels.  Such products are sold as a set of pages featuring a matrix of labels that can be peeled off without leaving any trace of adhesive.  This PHP script generates a matrix of labels with pinpoint accuracy.
 
-This PHP script is an SVG generator for such labels.  You can specify the following parameters (whose unit size is specified in milimeters) and have the desired sheet generated for printing:
+Parameters
+----------
+
+You can specify the following GET parameters for the script.  Unit size is millimetres.
 
 * __paperSize__: The size of the page in "${width}x${height}" format.  A4 is the default paper size so the default value is "__210x297__".
 * __labelSize__: The size of the label in "${width}x${height}" format.  A typical value is "48.5x25.4".  This parameter is __mandatory__.

@@ -7,16 +7,16 @@ Parameters
 ----------
 
 You can specify the following parameters for the script.
-* Parameters with bold names are mandatory, the others are optional.
+* Parameters without default values are mandatory to be specified.
 * Unit size must be specified is millimetres.
 * Parameters can be specified in the browser or in the command line (see examples below).
 
 | Parameter name | Default | Description |
 | ---------- | ------- | ----------- |
-| __numberOfColumns__ | - | The number of columns of the label matrix. |
-| __numberOfRows__ | - | The number of rows of the label matrix. |
-| __labelSize__ | - | The size of the label in "{width}x{height}" format. |
-| __text__ | - | The text to be printed per label. |
+| numberOfColumns | - | The number of columns of the label matrix. |
+| numberOfRows | - | The number of rows of the label matrix. |
+| labelSize | - | The size of the label in "{width}x{height}" format. |
+| text | - | The text to be printed per label. |
 | paperSize | 210x297 | The size of the page in "{width}x{height}" format |
 | textSize | 3 | The size of the text. |
 | textFont | Arial | The font family of the text. |

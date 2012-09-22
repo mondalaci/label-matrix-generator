@@ -25,7 +25,7 @@ You can specify the following parameters for the script.  Unit size is millimetr
 | Param name | Default | Description |
 | ----- | ----- | ---- |
 | paperSize | 210x297 | The size of the page in "${width}x${height}" format |
-| numberOfColumns | - | The number of columns of the label matrix. |
+| __numberOfColumns__ | - | The number of columns of the label matrix. |
 
 Example
 -------

@@ -27,17 +27,22 @@ You can specify the following parameters for the script.
 | outline | false | If true then draw an outline for labels.  Meant to be used for testing purposes. |
 | labelRadius | 0 | The radius of the corners of the labels.  Only displayed when _outline_ is _true_. |
 
-Example
--------
+Usage
+-----
 
-* __In the browser__ assuming that PHP is installed on `localhost` and `label-matrix-generator.php` resides within the `your-path` directory under your web root visit the following URL and save the output as `label-matrix.svg` for example.
+* __In the browser__ assuming that PHP is installed on `localhost` and `label-matrix-generator.php` resides within the `your-path` directory under your web root visit the following URL and save the output as `example.svg`.
 
 ```
 http://localhost/your-path/label-matrix-generator.php?numberOfColumns=7&numberOfRows=27&labelSize=25.4x10&labelGapX=2.5&text=I'm+a+label&outline=true&labelRadius=2
 ```
 
-* __In the command line__ assuming that PHP is installed on `localhost` and `label-matrix-generator.php` resides within the current directory type the following and the output will be saved into `label-matrix.svg`.
+* __In the command line__ assuming that PHP is installed on `localhost` and `label-matrix-generator.php` resides within the current directory type the following and the output will be saved into `example.svg`.
 
 ```bash
-php5 ./label-matrix-generator.php numberOfColumns=7 numberOfRows=27 labelSize=25.4x10 labelGapX=2.5 "text=I'm a label" outline=true labelRadius=2 | tee label-matrix.svg
+php5 ./label-matrix-generator.php numberOfColumns=7 numberOfRows=27 labelSize=25.4x10 labelGapX=2.5 "text=I'm a label" outline=true labelRadius=2 | tee example.svg
 ```
+
+Conversion from SVG to PDF
+--------------------------
+
+You can use a number of applications to convert SVG to PDF, [Inkscape http://inkscape.org/] being an excellent one.

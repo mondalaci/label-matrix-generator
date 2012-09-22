@@ -22,7 +22,6 @@ You can specify the following parameters for the script.  Unit size is millimetr
 * __correctionX__: Correction value for offsetting the page vertically.  Default value is __0__.
 * __outline__: Draw an outline for labels.  Menat to be used for testing purposes.  Default value is __false__.
 
-| table | table |
 | ----- | ----- |
 | table | table |
 | table | table |

@@ -49,7 +49,7 @@ Here's how the result looks like:
 Conversion from SVG to PDF
 --------------------------
 
-* __On the desktop__ you can use a number of applications to convert SVG to PDF, [Inkscape](http://inkscape.org/) being an excellent Free and cross-platform one.
+* __On the desktop__ you can use a number of applications to convert SVG to PDF, [Inkscape](http://inkscape.org/) being an excellent Free and cross-platform one.  You simply have to open the File menu, click on the Save As... menu item, select PDF as the output type, type the filename and save as [example.pdf](/mondalaci/label-matrix-generator/raw/master/example.pdf).
 
 * __In the command line__ you can also use Inkscape:
 

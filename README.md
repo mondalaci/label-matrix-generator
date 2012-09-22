@@ -30,13 +30,13 @@ You can specify the following parameters for the script.
 Example
 -------
 
-Assuming that PHP is installed on localhost and label-matrix-generator.php resides within the your-path directory under your web root visit the following URL and save the result as label-matrix.svg for example.
+Assuming that PHP is installed on `localhost` and `label-matrix-generator.php` resides within the `your-path` directory under your web root visit the following URL and save the result as label-matrix.svg for example.
 
 ```
 http://localhost/your-path/label-matrix-generator.php?numberOfColumns=7&numberOfRows=27&labelSize=25.4x10&labelGapX=2.5&text=I'm+a+label&outline=true&labelRadius=2
 ```
 
-Assuming that PHP is installed on localhost and label-matrix-generator.php resides in the current directory type the following and the output will be saved into label-matrix.svg.
+Assuming that PHP is installed on localhost and label-matrix-generator.php resides within the current directory type the following and the output will be saved into label-matrix.svg.
 
 ```bash
 php5 ./label-matrix-generator.php numberOfColumns=7 numberOfRows=27 labelSize=25.4x10 labelGapX=2.5 "text=I'm a label" outline=true labelRadius=2 | tee label-matrix.svg

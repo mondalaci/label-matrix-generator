@@ -19,19 +19,19 @@ if (php_sapi_name() == 'cli') {
 // Define the list of available parameters.
 
 $availableParams = array(
-    'paperSize'       => array('mandatory'=>false, 'type'=>'withAndHeightFloat'),
     'numberOfColumns' => array('mandatory'=>true,  'type'=>'int'),
     'numberOfRows'    => array('mandatory'=>true,  'type'=>'int'),
     'labelSize'       => array('mandatory'=>true,  'type'=>'widthAndHeightFloat'),
-    'labelRadius'     => array('mandatory'=>false, 'type'=>'float'),
-    'labelGapX'       => array('mandatory'=>false, 'type'=>'float'),
-    'labelGapY'       => array('mandatory'=>false, 'type'=>'float'),
     'text'            => array('mandatory'=>true,  'type'=>'string'),
+    'paperSize'       => array('mandatory'=>false, 'type'=>'withAndHeightFloat'),
     'textSize'        => array('mandatory'=>false, 'type'=>'float'),
     'textFont'        => array('mandatory'=>false, 'type'=>'string'),
+    'labelGapX'       => array('mandatory'=>false, 'type'=>'float'),
+    'labelGapY'       => array('mandatory'=>false, 'type'=>'float'),
     'correctionX'     => array('mandatory'=>false, 'type'=>'float'),
     'correctionY'     => array('mandatory'=>false, 'type'=>'float'),
     'outline'         => array('mandatory'=>false, 'type'=>'bool'),
+    'labelRadius'     => array('mandatory'=>false, 'type'=>'float'),
 );
 
 // Check the presence of mandatory parameters and the type of every parameter.

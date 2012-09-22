@@ -19,9 +19,9 @@ You can specify the following parameters for the script.  Unit size is millimetr
 | textFont | Arial | The font family of the text. |
 | labelGapX | 0 | The horizontal gap between adjacent labels. |
 | labelGapY | 0 | The vertical gap between adjacent labels. |
-| correctionX | 0 | Correction value for offsetting the page horizontally.
+| correctionX | 0 | Correction value for offsetting the page horizontally. |
 | correctionY | 0 | Correction value for offsetting the page vertically. |
-| outline | false | Draw an outline for labels.  Meant to be used for testing purposes. |
+| outline | false | If true then draw an outline for labels.  Meant to be used for testing purposes. |
 
 Example
 -------

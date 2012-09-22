@@ -49,7 +49,9 @@ Here's how the result looks like:
 Conversion from SVG to PDF
 --------------------------
 
-You can use a number of applications to convert SVG to PDF, [Inkscape](http://inkscape.org/) being an excellent one.  Not only it is an great GUI application but you can also use command line magic.
+* __On the desktop__ you can use a number of applications to convert SVG to PDF, [Inkscape](http://inkscape.org/) being an excellent one.
+
+* __In the command line__ you can also use Inkscape:
 
 ```bash
 inkscape --without-gui --export-pdf=example.pdf example.svg

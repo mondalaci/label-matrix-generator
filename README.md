@@ -9,8 +9,9 @@ Parameters
 You can specify the following parameters for the script.
 * Parameters with bold names are mandatory, the others are optional.
 * Unit size must be specified is millimetres.
+* Parameters can be specified in the browser or in the command line (see examples below).
 
-| Param name | Default | Description |
+| Parameter name | Default | Description |
 | ---------- | ------- | ----------- |
 | __numberOfColumns__ | - | The number of columns of the label matrix. |
 | __numberOfRows__ | - | The number of rows of the label matrix. |

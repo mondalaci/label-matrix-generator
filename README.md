@@ -45,4 +45,8 @@ php5 ./label-matrix-generator.php numberOfColumns=7 numberOfRows=27 labelSize=25
 Conversion from SVG to PDF
 --------------------------
 
-You can use a number of applications to convert SVG to PDF, [Inkscape](http://inkscape.org/) being an excellent one.
+You can use a number of applications to convert SVG to PDF, [Inkscape](http://inkscape.org/) being an excellent one.  Not only it is an great GUI application but you can also use command line magic.
+
+```bash
+inkscape --without-gui --export-pdf=example.pdf example.svg
+```

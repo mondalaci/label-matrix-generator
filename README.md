@@ -42,6 +42,10 @@ http://localhost/your-path/label-matrix-generator.php?numberOfColumns=7&numberOf
 php5 ./label-matrix-generator.php numberOfColumns=7 numberOfRows=27 labelSize=25.4x10 labelGapX=2.5 "text=I'm a label" outline=true labelRadius=2 | tee example.svg
 ```
 
+Here's how the result looks like:
+
+![](/mondalaci/label-matrix-generator/raw/master/example.png)
+
 Conversion from SVG to PDF
 --------------------------
 

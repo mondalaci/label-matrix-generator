@@ -30,7 +30,7 @@ You can specify the following parameters for the script.
 Usage
 -----
 
-* __In the browser__ assuming that PHP is installed on `localhost` and `label-matrix-generator.php` resides within the `your-path` directory under your web root visit the following URL and save the output as `[example.svg](/mondalaci/label-matrix-generator/raw/master/example.svg)`.
+* __In the browser__ assuming that PHP is installed on `localhost` and `label-matrix-generator.php` resides within the `your-path` directory under your web root visit the following URL and save the output as [example.svg](/mondalaci/label-matrix-generator/raw/master/example.svg).
 
 ```
 http://localhost/your-path/label-matrix-generator.php?numberOfColumns=7&numberOfRows=27&labelSize=25.4x10&labelGapX=2.5&text=I'm+a+label&outline=true&labelRadius=2

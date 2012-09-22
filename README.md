@@ -25,7 +25,7 @@ You can specify the following parameters for the script.
 | correctionX | 0 | Correction value for offsetting the page horizontally. |
 | correctionY | 0 | Correction value for offsetting the page vertically. |
 | outline | false | If true then draw an outline for labels.  Meant to be used for testing purposes. |
-| labelRadius | 0 | The radius of the corners of the labels.  Only displayed when `outline` is `true`. |
+| labelRadius | 0 | The radius of the corners of the labels.  Only displayed when _outline_ is _true_. |
 
 Example
 -------

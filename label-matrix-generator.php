@@ -1,4 +1,3 @@
-#!/usr/bin/env php5
 <?php
 
 // Construct $params from $argv or $_GET.

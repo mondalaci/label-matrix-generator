@@ -15,7 +15,7 @@ You can specify the following parameters for the script.
 | ---------- | ------- | ----------- |
 | __numberOfColumns__ | - | The number of columns of the label matrix. |
 | __numberOfRows__ | - | The number of rows of the label matrix. |
-| __labelSize__ | - | The size of the label in "{width}x{height}" format.  A typical value is "48.5x25.4". |
+| __labelSize__ | - | The size of the label in "{width}x{height}" format. |
 | __text__ | - | The text to be printed per label. |
 | paperSize | 210x297 | The size of the page in "{width}x{height}" format |
 | textSize | 3 | The size of the text. |

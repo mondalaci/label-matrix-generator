@@ -1,0 +1,63 @@
+<svg width='210mm' height='297mm' viewBox='0 0 210 297' xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink'>
+
+<style>
+    .outline {
+        fill: none;
+        stroke: black;
+        stroke-width: 0.1;
+    }
+</style>
+
+<defs>
+
+<symbol id="label" overflow="visible">
+    <rect class='outline' width='25.4' height='10' rx='2' />
+    <text text-anchor='middle' font-size='3.000000' x='12.700000' y='6.500000'>I'm a label</text>
+</symbol>
+
+<symbol id="row" overflow="visible">
+    <use xlink:href='#label' x='0.000000' />
+    <use xlink:href='#label' x='27.900000' />
+    <use xlink:href='#label' x='55.800000' />
+    <use xlink:href='#label' x='83.700000' />
+    <use xlink:href='#label' x='111.600000' />
+    <use xlink:href='#label' x='139.500000' />
+    <use xlink:href='#label' x='167.400000' />
+</symbol>
+
+<symbol id="page" overflow="visible">
+    <use xlink:href='#row' y='0.000000' />
+    <use xlink:href='#row' y='10.000000' />
+    <use xlink:href='#row' y='20.000000' />
+    <use xlink:href='#row' y='30.000000' />
+    <use xlink:href='#row' y='40.000000' />
+    <use xlink:href='#row' y='50.000000' />
+    <use xlink:href='#row' y='60.000000' />
+    <use xlink:href='#row' y='70.000000' />
+    <use xlink:href='#row' y='80.000000' />
+    <use xlink:href='#row' y='90.000000' />
+    <use xlink:href='#row' y='100.000000' />
+    <use xlink:href='#row' y='110.000000' />
+    <use xlink:href='#row' y='120.000000' />
+    <use xlink:href='#row' y='130.000000' />
+    <use xlink:href='#row' y='140.000000' />
+    <use xlink:href='#row' y='150.000000' />
+    <use xlink:href='#row' y='160.000000' />
+    <use xlink:href='#row' y='170.000000' />
+    <use xlink:href='#row' y='180.000000' />
+    <use xlink:href='#row' y='190.000000' />
+    <use xlink:href='#row' y='200.000000' />
+    <use xlink:href='#row' y='210.000000' />
+    <use xlink:href='#row' y='220.000000' />
+    <use xlink:href='#row' y='230.000000' />
+    <use xlink:href='#row' y='240.000000' />
+    <use xlink:href='#row' y='250.000000' />
+    <use xlink:href='#row' y='260.000000' />
+</symbol>
+
+</defs>
+
+<rect class='outline' x='0' y='0' width='210' height='297' />
+<use xlink:href='#page' x='8.600000' y='13.500000' />
+
+</svg>

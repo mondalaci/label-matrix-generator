@@ -30,4 +30,6 @@ You can specify the following parameters for the script.
 Example
 -------
 
-label-matrix-generator.php?labelSize=20x10&labelGapX=3&text=Label+Matrix+Generator
+http://localhost/your-path/label-matrix-generator.php?numberOfColumns=7&numberOfRows=27&labelSize=25.4x10&labelGapX=2.5&text=I'm+a+label&outline=true&labelRadius=2
+
+php5 ./label-matrix-generator.php numberOfColumns=7 numberOfRows=27 labelSize=25.4x10 labelGapX=2.5 "text=I'm a label" outline=true labelRadius=2 | tee label-matrix.svg

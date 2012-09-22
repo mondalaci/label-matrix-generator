@@ -49,7 +49,7 @@ Here's how the result looks like:
 Conversion from SVG to PDF
 --------------------------
 
-* __On the desktop__ you can use a number of applications to convert SVG to PDF, [Inkscape](http://inkscape.org/) being an excellent one.
+* __On the desktop__ you can use a number of applications to convert SVG to PDF, [Inkscape](http://inkscape.org/) being an excellent Free and cross-platform one.
 
 * __In the command line__ you can also use Inkscape:
 

@@ -6,7 +6,7 @@ In office stores one can buy removable labels.  Such products are sold as a set 
 Parameters
 ----------
 
-You can specify the following parameters for the script.  Unit size is millimetres.
+You can specify the following parameters for the script.  Parameters with bold names are mandatory, the others are optional.  Unit size is millimetres.
 
 | Param name | Default | Description |
 | ---------- | ------- | ----------- |

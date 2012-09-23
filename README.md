@@ -53,7 +53,7 @@ Given that peelable label matrix papers are a lot more expensive than regular pa
 
 1. Take some sheets of regular paper whose size matches the label matrix papers.
 2. Use `outline=true` and optionally the `labelRadius` parameter for testing.
-3. Print on a regular sheet of paper and measure the empty space on all sides of the paper to see whether it matches for the spacing of the label matrix paper.
+3. Print on a regular sheet of paper and measure the empty space on all sides of the paper to see whether it matches the spacing of the label matrix paper.
 4. If spacing is off on either side then fine-tune the printer-dependent `correctionX` and `correctionY` values and go back to 3.
 5. If you're sure that spacing is all right then set `outline` to `false` and print on the label matrix paper.
 

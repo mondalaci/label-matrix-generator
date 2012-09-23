@@ -30,6 +30,8 @@ You can specify the following parameters for the script.
 Usage
 -----
 
+* __In the browser__ assuming that PHP is installed on `localhost` and `label-matrix-generator.php` resides within the `your-path` directory under your web root visit the following URL and save the output as [example.svg](/mondalaci/label-matrix-generator/raw/master/example.svg).
+
 ```
 http://localhost/your-path/label-matrix-generator.php?numberOfColumns=7&numberOfRows=27&labelSize=25.4x10&labelGapX=2.5&text=I'm+a+label&outline=true&labelRadius=2
 ```
@@ -47,15 +49,13 @@ Here's how the result looks like:
 Testing
 -------
 
-Given that peelable label matrix papers are lot more expensive than regular papers it's a very wise practice to test the correctness of the generated graphics on regular papers first.
+Given that peelable label matrix papers are a lot more expensive than regular papers it's a very wise practice to test the correctness of the generated graphics on regular papers first.
 
 1. Take some sheets of regular paper whose size matches the label matrix papers.
-2. Use `outline=true` and optionally the `labelRadius` parameters for testing.
-3. Print on an regular sheet of paper and measure the empty space on all sides of the paper to see whether it matches for the spacing of the label matrix paper.
+2. Use `outline=true` and optionally the `labelRadius` parameter for testing.
+3. Print on a regular sheet of paper and measure the empty space on all sides of the paper to see whether it matches for the spacing of the label matrix paper.
 4. If spacing is off on either side then fine-tune the printer-dependent `correctionX` and `correctionY` values and go back to 3.
 5. If you're sure that spacing is all right then set `outline` to `false` and print on the label matrix paper.
-
-* __In the browser__ assuming that PHP is installed on `localhost` and `label-matrix-generator.php` resides within the `your-path` directory under your web root visit the following URL and save the output as [example.svg](/mondalaci/label-matrix-generator/raw/master/example.svg).
 
 Conversion from SVG to PDF
 --------------------------

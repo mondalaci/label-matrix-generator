@@ -44,7 +44,7 @@ php5 ./label-matrix-generator.php numberOfColumns=7 numberOfRows=27 labelSize=25
 
 Here's how the result looks like:
 
-![](/mondalaci/label-matrix-generator/raw/master/example.png)
+![example](example.png)
 
 Testing
 -------
